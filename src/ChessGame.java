@@ -15,7 +15,7 @@ public class ChessGame {
         int HEIGHT = tk.getScreenSize().height;
 
         //Brings in image
-        BufferedImage all=ImageIO.read(new File("C:\\Users\\Ajani\\Downloads\\chess.png"));
+        BufferedImage all=ImageIO.read(new File("src/chess.png"));
         Image imgs[]=new Image[12];
         int ind=0;
         //cuts the pieces on the image
